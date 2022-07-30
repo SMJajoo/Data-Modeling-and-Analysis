@@ -1,5 +1,5 @@
-sup_pri_train  =  read.csv(file="C://Users//Sanskruti Jajoo//Desktop//STUDY//DMA//Lab//sup_pri_data.csv",  header=TRUE,  sep="",  stringsAsFactors  =  FALSE)
-sup_pri_test  =  read.csv(file="C://Users//Sanskruti Jajoo//Desktop//STUDY//DMA//Lab//sup_pri_data_val.csv",  header=TRUE,  sep="",  stringsAsFactors  =  FALSE)
+sup_pri_train  =  read.csv(file="sup_pri_data.csv",  header=TRUE,  sep="",  stringsAsFactors  =  FALSE)
+sup_pri_test  =  read.csv(file="sup_pri_data_val.csv",  header=TRUE,  sep="",  stringsAsFactors  =  FALSE)
 
 productVariation = function (init_price, init_quant, years, a, b){
   sup_pri <- matrix(NA, years, 3)
