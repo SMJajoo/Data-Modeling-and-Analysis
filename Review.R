@@ -1,4 +1,4 @@
-review  =  read.csv(file="C://Users//Sanskruti Jajoo//Desktop//STUDY//DMA//Lab//reviews.csv",  header=TRUE,  sep=",",  stringsAsFactors  =  FALSE)
+review  =  read.csv(file="reviews.csv",  header=TRUE,  sep=",",  stringsAsFactors  =  FALSE)
 #First, let's take a quick look:
 summary(review)
 
