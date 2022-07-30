@@ -160,3 +160,5 @@ ggplot(s, aes(x=date, y=tot, group=movieGenre)) +
   scale_x_discrete(breaks=labels, labels=as.character(labels)) + 
   ylab("Total Reviews") +
   theme(axis.text.x  =  element_text(angle  =  90,  hjust  =  1))
+       
+  
